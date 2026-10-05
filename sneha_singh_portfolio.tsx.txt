@@ -11,14 +11,14 @@ const RESUME_DATA = {
   titles: [
     "Front-End Developer",
     "Team Leader & Coordinator",
-    "MCA Scholar @ IET Lucknow",
+    "MCA Student @IET Lucknow",
     "UI/UX Enthusiast"
   ],
   location: "Lucknow, Uttar Pradesh, India",
-  email: "sneha.singh.dev@example.com",
-  phone: "+91 98765 43210",
-  linkedin: "https://linkedin.com/in/sneha-singh",
-  github: "https://github.com/sneha-singh",
+  email: "singhsneha0130@gmail.com",
+  phone: "+91 9919984241",
+  linkedin: "www.linkedin.com/in/sneha-singh-59001533b",
+  github: "github.com/singhsneha0130-jpg",
   bio: "Motivated MCA student with a strong foundation in computer applications, front-end web development, and proven team leadership. Experienced as Group Leader in Infosys Soft Skills Training. Passionate about creating responsive, user-friendly UI/UX and driving team coordination.",
   education: [
     {
@@ -76,18 +76,6 @@ const RESUME_DATA = {
     { name: "Problem Solving", percentage: 85 }
   ],
   projects: [
-    {
-      id: "grocery-store",
-      title: "Grocery E-Commerce Platform",
-      category: "Full Web App",
-      tech: ["HTML5", "CSS3", "JavaScript", "Tailwind CSS", "SQL"],
-      description: "Developed a fully responsive grocery shopping platform. Applied clean UI/UX principles, modern color theory, and modular design. Integrated SQL backend structure for efficient product inventory and order management.",
-      highlights: [
-        "Responsive, mobile-first design with smooth layout adaptation",
-        "Custom product filters, cart calculations & user-friendly interface",
-        "Collaborative team development utilizing SQL for database schema"
-      ]
-    },
     {
       id: "expense-tracker",
       title: "Personal Expense Tracker",
@@ -421,10 +409,7 @@ export default function App() {
         className="fixed top-0 left-0 h-[3px] bg-gradient-to-r from-cyan-400 via-indigo-500 to-cyan-300 z-50 transition-all duration-150"
         style={{ width: `${scrollProgress}%` }}
       />
-
-      {/* ============================================================ */}
-      {/* 🎬 CINEMATIC OPENING EXPERIENCE OVERLAY */}
-      {/* ============================================================ */}
+      {/* CINEMATIC OPENING EXPERIENCE OVERLAY */}
       {}
       {showIntro && (
         <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[#060919] overflow-hidden select-none">
@@ -568,9 +553,7 @@ export default function App() {
         )}
       </nav>
 
-      {/* ============================================================ */}
       {/* ① HERO SECTION */}
-      {/* ============================================================ */}
       {}
       <section id="hero" className="relative min-h-screen flex items-center justify-center pt-20 pb-16 overflow-hidden">
         
@@ -640,9 +623,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* ============================================================ */}
       {/* ② ABOUT ME SECTION */}
-      {/* ============================================================ */}
       {}
       <section id="about" className="py-24 relative bg-[#0c102e] border-t border-slate-800/40">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
